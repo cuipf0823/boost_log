@@ -4,7 +4,7 @@ namespace complex_log
 {
 
 //We define our own severity levels
-enum severity_level
+enum SeverityLevel : char	    
 {
 	normal,
 	notification,
@@ -13,10 +13,10 @@ enum severity_level
 	critical
 };
 
-void logging_function();
-void named_scope_logging();
-void tagged_logging();
-void timed_logging();
+void LoggingFunction();
+void NamedScopeLogging();
+void TaggedLogging();
+void TimedLogging();
 void Init();
 void TestComplex();
 

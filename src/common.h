@@ -22,6 +22,9 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/log/attributes/scoped_attribute.hpp>
 #include <boost/core/null_deleter.hpp>
+#include <boost/log/sources/global_logger_storage.hpp>
+#include <boost/move/utility_core.hpp>
+#include <boost/log/sources/logger.hpp>
 #include <iostream>
 #include <string>
 #include <fstream>
